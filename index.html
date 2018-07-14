@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mandelbrot Set</title>
+</head>
+<body>
+  <canvas id='board'></canvas>
+
+  <form>
+    <label name='max-iterations'>Maximum Iterations</label>
+    <input id='max-iterations' type='range' min='5' max='500' value='500'>
+
+    <label name='base-hue'>Base Hue</label>
+    <input id='base-hue' type='range' min='0' max='255' value='0'>
+  </form>
+
+  <script src='conversion.js'></script>
+  <script src='params.js'></script>
+  <script src='lib.js'></script>
+  <script src='main.js'></script>
+</body>
+</html>
