@@ -7,4 +7,4 @@ So I just looked it up and found out the wikipedia page on [The Mandelbrot set](
 Here is a simple working rendering of the Mandelbrot set using HTML5 Canvas.
 I wanted to write the recursion as well (zooming in indefinitely), but was not in the mood really, maybe sometime later.
 
-[GIF](https://github.com/mdibaiee/mandelbrot-fractal-drawing/raw/gh-pages/mandelbrot.gif)
+[GIF](mandelbrot.gif?raw=true "GIF")
